@@ -9,3 +9,12 @@ window.onload = function() {
   //write your code here
   
 };
+
+
+// Timer Function to Generate Card.
+// Function for button to change card.
+
+// Functions
+// Arrays 
+// HTML
+// Random Numbers

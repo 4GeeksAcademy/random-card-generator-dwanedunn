@@ -28,7 +28,7 @@ function getRandomCard(){
 
    
 }
-
+console.log(getRandomCard());
 // Arrays 
 // HTML
 // Random Numbers

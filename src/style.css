@@ -4,6 +4,16 @@ body{
     background: green;
 }
 
+/* Style the divs with the suits */
+.top-suit {
+    font-size: 50px;
+}
+
+.bottom-suit {
+    font-size: 50px;
+}
+
+
 .spade {
 color: black;
 }

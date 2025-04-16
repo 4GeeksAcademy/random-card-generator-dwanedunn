@@ -4,6 +4,44 @@ body{
     background: green;
 }
 
+.card {
+    display: inline-block;
+    text-align: center;
+    background: whitesmoke;
+    margin: auto;
+    height: 500px;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    
+    
+    
+}
+
+.number {
+    font-size: 80px;
+}
+
+.number:before {
+    content: \2660;
+    position: absolute;
+    color: red;
+    font-size: 80px;
+    top: 20px;
+    left: 20px
+
+}
+.number:after {
+    content: \2660;
+    position: absolute;
+    font-size: 80px;
+    color: red;
+    right: 20px;
+    bottom: 20px;
+    }
+
 .spade {
 /* Put styles */
 /* &spades; */
@@ -24,4 +62,3 @@ body{
 /* &diams; */
 }
 
-/* Resource for HTML Entities */

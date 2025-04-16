@@ -16,17 +16,21 @@ body{
 
 .spade {
 color: black;
+font-size: 50px;
 }
 
 .club {
 color: black;
+font-size: 50px;
 }
 
 .heart {
 color: red;
+font-size: 50px;
 }
 
 .diamond {
 color: red;
+font-size: 50px;
 }
 

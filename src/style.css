@@ -13,6 +13,11 @@ body{
     font-size: 50px;
 }
 
+.number {
+    font-size: 50px;
+    text-align: center;
+}
+
 
 .spade {
 color: black;

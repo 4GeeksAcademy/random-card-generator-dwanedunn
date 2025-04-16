@@ -1,13 +1,12 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+/* @import "bootstrap/dist/css/bootstrap.min.css"; */
 
 body{
     background: green;
 }
 
 .card {
-
     display: inline-block;
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     background: whitesmoke;
     margin: auto;

@@ -35,7 +35,16 @@ window.onload = function() {
   function generateRandomSuit(){
     const cardSuits = [{name: "heart", content: "&hearts;", color: "red"}, {name: "diamond", content: "&diams;", color: "red"}, {name: "club", content: "&clubs;", color: "black"}, {name: "spade", content: "&spades;",color: "black"}];
     let suitIndex = Math.floor(Math.random()*cardSuits.length);
+    let cardSuit = cardSuits[suitIndex];
+    // Add related classes to html
+    console.log('before add css:',cardSuit['name']);
+    if (cardSuit['name'] === 'heart'|| cardSuit['name'] === 'spade'){
+      topSuit.classlist.add('red-card');
+      bottomSuit.classlist.add('red-card');
+    }
     return cardSuits[suitIndex].content;
+
+
   }
 
 

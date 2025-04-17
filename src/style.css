@@ -23,21 +23,25 @@ body{
 .spade {
 color: black;
 font-size: 50px;
+content: &spades;
 }
 
 .club {
 color: black;
 font-size: 50px;
+content: &clubs;
 }
 
 .heart {
 color: red;
 font-size: 50px;
+content: &hearts;
 }
 
 .diamond {
 color: red;
 font-size: 50px;
+content: &diams;
 }
 
 /* HTML ENTITIES

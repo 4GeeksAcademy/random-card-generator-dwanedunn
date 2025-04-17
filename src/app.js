@@ -26,7 +26,11 @@ function getRandomCard(){
   const randomValue = values[Math.floor(Math.random()*values.length)];
    return  `${randomValue} of ${randomSuit}`;
 
-   
+  //  For Testing log what the selector finds.
+   const topSuit = querySelector('.top-suit');
+   const bottomSuit = querySelector('.bottom-suit');
+   console.log(topSuit);
+   console.log(bottomSuit);
 }
 console.log(getRandomCard());
 

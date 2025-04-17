@@ -20,8 +20,10 @@ window.onload = function() {
     console.log(selectedSuit);
 
     // Select HTML elements
-    document.querySelector("#top-suit").innerHTML = selectedSuit;
-    document.querySelector("#bottom-suit").innerHTML = selectedSuit;
+    const topSuit = document.querySelector("#top-suit");
+    topSuit.innerHTML = selectedSuit;
+    const bottomSuit = document.querySelector("#bottom-suit");
+    bottomSuit.innerHTML = selectedSuit;
   }
   
   function generateRandomNumber() {

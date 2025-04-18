@@ -13,7 +13,7 @@ window.onload = function () {
   getRandomCard();
   setInterval(() => {
     getRandomCard();
-  }, 5000);
+  }, 10000);
 }
 
 function getRandomCard() {

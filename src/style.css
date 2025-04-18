@@ -11,7 +11,7 @@ body{
 
 .bottom-suit {
     font-size: 50px;
-    transform: translate(180deg);
+    transform: rotate(180deg);
 }
 
 .number {
@@ -23,6 +23,23 @@ body{
 color: red;
 font-size: 50px;
 }
+
+/* .heart {
+    color: red;
+    font-size: 50px;
+} */
+/* .spade {
+    color: red;
+    font-size: 50px;
+} */
+/* .diamond {
+    color: red;
+    font-size: 50px;
+} */
+/* .club {
+    color: red;
+    font-size: 50px;
+} */
 
 /* HTML ENTITIES
 https://www.w3schools.com/charsets/ref_html_symbols.asp

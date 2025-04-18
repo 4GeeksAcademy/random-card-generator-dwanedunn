@@ -40,10 +40,8 @@ function generateRandomSuit() {
   let cardSuit = cardSuits[suitIndex];
 
   if (cardSuit['name'] === 'heart' || cardSuit['name'] === 'spade') {
-
     document.querySelector("#top-suit").classList.add('red-card')
     document.querySelector("#bottom-suit").classList.add('red-card');
-
   }
   return cardSuits[suitIndex].content;
 

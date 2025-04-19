@@ -4,6 +4,13 @@ body{
     background: green;
 }
 
+/* .card > .top-suit {
+    background-color: aqua;
+}
+.card > .bottom-suit {
+    background-color: aqua;
+} */
+
 /* Style the divs with the suits */
 .top-suit {
     font-size: 50px;
@@ -24,22 +31,24 @@ color: red;
 font-size: 50px;
 }
 
-/* .heart {
+
+
+.heart {
     color: red;
     font-size: 50px;
-} */
-/* .spade {
+}
+.spade {
     color: red;
     font-size: 50px;
-} */
-/* .diamond {
+}
+.diamond {
     color: red;
     font-size: 50px;
-} */
-/* .club {
+}
+.club {
     color: red;
     font-size: 50px;
-} */
+}
 
 /* HTML ENTITIES
 https://www.w3schools.com/charsets/ref_html_symbols.asp

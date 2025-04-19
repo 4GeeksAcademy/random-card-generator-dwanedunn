@@ -39,9 +39,14 @@ function generateRandomSuit() {
   let suitIndex = Math.floor(Math.random() * cardSuits.length);
   let cardSuit = cardSuits[suitIndex];
 
-  if (cardSuit['name'] === 'heart' || cardSuit['name'] === 'spade') {
-    document.querySelector("#top-suit").classList.add('red-card')
-    document.querySelector("#bottom-suit").classList.add('red-card');
+  if (cardSuit['name'] === 'heart') {
+    document.querySelector("#top-suit").classList.add('heart')
+    document.querySelector("#bottom-suit").classList.add('heart');
+  }
+
+  if (cardSuit['name'] === 'spade'){
+    document.querySelector("#top-suit").classList.add('spade')
+    document.querySelector("#bottom-suit").classList.add('spade');
   }
   return cardSuits[suitIndex].content;
 

@@ -48,6 +48,11 @@ function generateRandomSuit() {
     document.querySelector("#top-suit").classList.add('spade')
     document.querySelector("#bottom-suit").classList.add('spade');
   }
+
+  if (cardSuit['name'] === 'diamond'){
+    document.querySelector("#top-suit").classList.add('diamond')
+    document.querySelector("#bottom-suit").classList.add('diamond');
+  }
   return cardSuits[suitIndex].content;
 
 }

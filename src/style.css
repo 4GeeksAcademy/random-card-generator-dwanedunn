@@ -2,6 +2,7 @@
 
 body{
     background: green;
+    --card-width: 
 }
 
 /* .card > .top-suit {
@@ -48,6 +49,11 @@ font-size: 50px;
 .club {
     color: red;
     font-size: 50px;
+}
+
+.input-size {
+    --card-width: 300px;
+    ---card-height: 500px;
 }
 
 /* HTML ENTITIES

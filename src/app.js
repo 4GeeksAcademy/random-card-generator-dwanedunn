@@ -14,6 +14,10 @@ window.onload = function () {
   setInterval(() => {
     getRandomCard();
   }, 10000);
+
+  document.querySelector('#new-card').addEventListener('click', getRandomCard );
+  document.querySelector('#input-width').addEventListener('change', ()=>{alert('Changed')} );
+  document.querySelector('#input-height').addEventListener('change', ()=>{alert('changed')} );
 }
 
 function getRandomCard() {

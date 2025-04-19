@@ -16,15 +16,8 @@ window.onload = function () {
   }, 10000);
 
   document.querySelector('#new-card').addEventListener('click', getRandomCard );
-  document.querySelector('#input-width').addEventListener('change', ()=>{changeCardWithAndHeight} );
-  document.querySelector('#input-height').addEventListener('change', ()=>{changeCardWithAndHeight} );
-}
-function changeCardWithAndHeight(){
-  let card = document.querySelector('#playing-card');
-  card.style.width = document.querySelector('#input-width').value;
-  card.style.height = document.querySelector('#input-height').value;
-}
 
+}
 
 function getRandomCard() {
   document.querySelector('#number').innerHTML = generateRandomNumber();

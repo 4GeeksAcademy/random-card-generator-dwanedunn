@@ -2,7 +2,6 @@
 
 body{
     background: green;
-    --card-width: 
 }
 
 /* .card > .top-suit {
@@ -51,10 +50,6 @@ font-size: 50px;
     font-size: 50px;
 }
 
-.input-size {
-    --card-width: 300px;
-    ---card-height: 500px;
-}
 
 /* HTML ENTITIES
 https://www.w3schools.com/charsets/ref_html_symbols.asp

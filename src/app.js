@@ -43,17 +43,23 @@ function generateRandomSuit() {
   let cardSuit = cardSuits[suitIndex];
 
   if (cardSuit['name'] === 'heart') {
-    document.querySelector("#top-suit").classList.add('heart')
+    document.querySelector("#top-suit").classList.remove('heart', 'spade', 'diamond');
+    document.querySelector("#top-suit").classList.add('heart');
+    document.querySelector("#bottom-suit").classList.remove('heart', 'spade', 'diamond');
     document.querySelector("#bottom-suit").classList.add('heart');
   }
 
   if (cardSuit['name'] === 'spade'){
-    document.querySelector("#top-suit").classList.add('spade')
+    document.querySelector("#top-suit").classList.remove('heart', 'spade', 'diamond');
+    document.querySelector("#top-suit").classList.add('spade');
+    document.querySelector("#bottom-suit").classList.remove('heart', 'spade', 'diamond');
     document.querySelector("#bottom-suit").classList.add('spade');
   }
 
   if (cardSuit['name'] === 'diamond'){
-    document.querySelector("#top-suit").classList.add('diamond')
+    document.querySelector("#top-suit").classList.remove('heart', 'spade', 'diamond');
+    document.querySelector("#top-suit").classList.add('diamond');
+    document.querySelector("#bottom-suit").classList.remove('heart', 'spade', 'diamond');
     document.querySelector("#bottom-suit").classList.add('diamond');
   }
   return cardSuits[suitIndex].content;
